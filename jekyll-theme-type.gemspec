@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-type"
   spec.version       = "1.1"
   spec.authors       = ["Yurim"]
-  spec.email         = ["soaka94@naver.com"]
+  spec.email         = ["seok11754@gmail.com"]
 
   spec.summary       = %q{A free and open-source Jekyll theme. Great for blogs and easy to customize.}
   spec.homepage      = "https://github.com/rohanchandra/type-theme"
