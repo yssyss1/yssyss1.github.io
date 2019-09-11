@@ -61,8 +61,8 @@ $ nvidia-docker run --rm nvidia/cuda nvidia-smi
 
 Tensorflow GPU 버전을 설치하려면 반드시 <point>CUDA와 cuDNN</point>이 설치되어 있어야 한다. 또한, CUDA를 설치하기 위해서는 <point>NVIDIA 드라이버</point>가 설치되어 있어야한다. 자세한 설치 내용은 아래의 블로그 포스팅을 참조하길 바란다.<br>
 
-* NVIDIA 드라이버 설치 : https://devyurim.github.io/2018/05/24/15.html
-* CUDA 9.0, cuDNN 7.0 설치 : https://devyurim.github.io/2018/05/25/16.html
+* NVIDIA 드라이버 설치 : https://yssyss1.github.io/2018/05/24/15.html
+* CUDA 9.0, cuDNN 7.0 설치 : https://yssyss1.github.io/2018/05/25/16.html
 
 <br>
 {% highlight shell %}

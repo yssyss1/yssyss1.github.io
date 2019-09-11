@@ -5,7 +5,7 @@ url: "https://yssyss1.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: devYurim
+  title: yssyss1
   avatar: assets/img/blogmark.png
   favicon: assets/favicon.png
   gravatar: # Email MD5 hash
@@ -28,7 +28,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "devYurim"
+  github: "yssyss1"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -44,7 +44,7 @@ theme_settings:
 
   # Scripts
   google_analytics: UA-111748939-1 # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: devYurim
+  disqus_shortname: yssyss1
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 
