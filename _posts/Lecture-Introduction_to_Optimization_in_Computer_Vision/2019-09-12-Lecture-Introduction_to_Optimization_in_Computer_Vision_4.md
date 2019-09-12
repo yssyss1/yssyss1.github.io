@@ -19,13 +19,13 @@ tags: [Optimization]
 	* Level sets: Level이 같은 x 집합 S
 	* 특정 Level에서 자르면 Curve g(t)가 만들어짐
 	* f(x, y)=c라고 하면, g(t) -> (x, y)에 대응함
-	* f(g(t)) = c를 t에 대해서 미분하면 g(t)의 tangent 벡터와 f(x, y)의 gradient는 서로 직교한다는 성질 유도 가능
+	* f(g(t)) = c를 t에 대해서 미분하면 g(t)의 tangent 벡터와 f(x, y)의 gradient는 서로 <point>직교</point>한다는 성질 유도 가능
 
 <br><br>
 * Taylor series
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64764963-2ed7c900-d57e-11e9-903b-5938d815fa73.png" width="50%" height="50%"></center>
 	* 특정 점에서 주변 값들을 알고 싶을 때 고차 미분항까지 구할수록 더욱 먼 지점에서 값도 비슷하게 구할 수 있음
-	* 하지만 고차 미분항을 구하기 위해선 계산량이 늘어나므로 정확도와 계산량 사이에서 trade off
+	* 하지만 고차 미분항을 구하기 위해선 계산량이 늘어나므로 <point>정확도</point>와 <point>계산량</point> 사이에서 trade off
 
 <br><br>
 * Positive Semidefinite
@@ -34,7 +34,7 @@ tags: [Optimization]
 	* 다차원 Qudratic form인 경우 각 차원의 미분값이 0이 되는 지점(Stationary Point)은 극소, 극대, 안장점(Saddle Point) 모두 가능함
 	* 극소, 극대, 안장점에 대한 기준을 제공해주는 것이 Positive Definite임 
 	* Positive Definite이 되는 조건 중 하나는 $$x^TQx$$ > 0으로 이때 극소점을 가지고 반대인 경우 Negative Definite임
-	* $$x^TQx$$ >= 0인 경우 positive semidefinite라고 정의하고 convex quadratic problem임
+	* $$x^TQx$$ >= 0인 경우 <point>positive semidefinite</point>라고 정의하고 <point>convex quadratic problem</point>임
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64767743-38176480-d583-11e9-9b13-c5594edb8d54.png" width="50%" height="50%"></center>
 
 <br><br>
