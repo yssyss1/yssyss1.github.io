@@ -14,8 +14,10 @@ layout: default
   <section class="post-content">{{ content }}</section>
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 </article>
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
 </script>
 <!-- Disqus -->
 {% if page.comments %}<a href="https://yssyss1.github.io{{ page.url }}#disqus_thread"></a>{% endif %}
