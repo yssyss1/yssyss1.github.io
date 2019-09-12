@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Introduction_to_Optimization_in_Computer_Vision
+title: Introduction to Optimization in Computer Vision
 permalink: '/Lecture/Introduction_to_Optimization_in_Computer_Vision'
 ---
 
