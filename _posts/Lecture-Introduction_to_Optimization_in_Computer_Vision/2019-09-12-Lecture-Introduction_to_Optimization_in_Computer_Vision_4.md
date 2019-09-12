@@ -26,7 +26,7 @@ tags: [Optimization]
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64764963-2ed7c900-d57e-11e9-903b-5938d815fa73.png" width="50%" height="50%"></center>
 	* 특정 점에서 주변 값들을 알고 싶을 때 고차 미분항까지 구할수록 더욱 먼 지점에서 값도 비슷하게 구할 수 있음
 	* 하지만 고차 미분항을 구하기 위해선 계산량이 늘어나므로 정확도와 계산량 사이에서 trade off
-https://user-images.githubusercontent.com/37978259/64767743-38176480-d583-11e9-9b13-c5594edb8d54.png
+
 <br><br>
 * Positive Semidefinite
 	* 1차원인 경우 2차 함수가 convex, concave 중 어디에 속하는지는 2차항의 계수 부호를 보면 쉽게 알 수 있음
