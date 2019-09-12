@@ -43,7 +43,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: UA-111748939-1 # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: UA-147712240-1 # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname: yssyss1-github-io
   katex: true # Enable if using math markup
   search: false # Enable the search feature
