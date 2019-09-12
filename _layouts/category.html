@@ -5,10 +5,8 @@ layout: default
 <ul class="category-title"><h1>{{page.title}}</h1></ul>
 <ul class="posts-list">
   {% assign category = page.category | default: page.title %}
-  <h1>{{page.category}}</h1>
-  <h1>{{page.title}}</h1>
-  <h1>{{site.categories}}</h1>
-  {% for post in site.menu[category] %}
+  <h1>{{page}}</h1>
+  {% for post in site.categories[category] %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
