@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WEEK 1 - Classification of Optimization Techniques (2) 
+title: WEEK 2 - Foundations
 comments: true
 categories : [Lecture/Introduction_to_Optimization_in_Computer_Vision]
 tags: [Optimization]
