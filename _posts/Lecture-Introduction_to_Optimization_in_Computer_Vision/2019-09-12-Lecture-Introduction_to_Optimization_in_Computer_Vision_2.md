@@ -18,8 +18,8 @@ tags: [Optimization]
 * Discrete vs Continuous
 	* 어떤 점을 둘러싸는 구(3차원) 또는 원(2차원)이 있을 때 그 안에 다른 점이 없으면 <point>isolated</point>되었다고 함
 	* 그 공간을 아무리 줄여도 다른 점이 있으면 그 점들을 붙어있다고 볼 수 있고 그런 점을 <point>accumulated point</point>라고 함
-	* <point>Discrete</point>: 점들이 모두 <point>isolated point</point>로 구성
-	* <point>Continuous</point>: 점들이 모두 <point>accumulated point</point>로 구성
+	* Discrete: 점들이 모두 <point>isolated point</point>로 구성
+	* Continuous: 점들이 모두 <point>accumulated point</point>로 구성
 
 <br><br>
 * Continuous optimization problems
