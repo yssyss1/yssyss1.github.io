@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python/Tensorflow
-permalink: '/Python/Tensorflow'
+title: Paper/Vision
+permalink: '/Paper/Vision'
 ---
 
 Another sample category page.

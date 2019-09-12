@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Data Science/R programming
-permalink: '/DS/R'
+title: Paper/RL
+permalink: '/Paper/RL'
 ---
 
 Another sample category page.
