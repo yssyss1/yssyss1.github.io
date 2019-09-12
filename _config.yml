@@ -20,12 +20,12 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
-  rss: true
+  rss:
   email_address: "seok11754@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "youngsoo.suk.9"
   flickr:
   gitlab:
   github: "yssyss1"
