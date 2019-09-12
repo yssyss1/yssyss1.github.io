@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Deep Learning
-menu: DL/DL
+category: Deep Learning
 permalink: '/DL/DL'
 ---
 

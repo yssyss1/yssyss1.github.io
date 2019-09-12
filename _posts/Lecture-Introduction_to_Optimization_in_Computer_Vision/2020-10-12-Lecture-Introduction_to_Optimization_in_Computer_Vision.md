@@ -2,8 +2,7 @@
 layout: post
 title: 지킬(Jekyll) 블로그 카테고리(category) 만들기 테스 
 comments: true
-categories : [Lecture/Introduction_to_Optimization_in_Computer_Vision]
-menu: [Introduction to Optimization in Computer Vision]
+categories : [Introduction to Optimization in Computer Vision]
 tags: [Github Blog]
 ---
 
