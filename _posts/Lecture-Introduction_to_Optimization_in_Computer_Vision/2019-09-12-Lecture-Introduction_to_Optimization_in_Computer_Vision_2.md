@@ -40,5 +40,5 @@ tags: [Optimization]
 			* <center><img  src="https://user-images.githubusercontent.com/37978259/64757585-7bff6f00-d56d-11e9-9267-f9e2482d37c4.png" width="55%"></center>
 
 <br><br>
-<subtitle>reference</subtitle>
+> <subtitle>reference</subtitle>
 * https://www.edwith.org/optimization2017

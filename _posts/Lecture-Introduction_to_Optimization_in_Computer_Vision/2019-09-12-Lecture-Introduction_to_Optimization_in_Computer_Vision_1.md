@@ -20,5 +20,5 @@ tags: [Optimization]
 	*	해 x는 특정 집합에 속해야한다는 의미에서 feasible set 이외에도 constraint set이라고도 부름
 
 <br><br>
-<subtitle>reference</subtitle>
+> <subtitle>reference</subtitle>
 * https://www.edwith.org/optimization2017
