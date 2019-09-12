@@ -2,7 +2,7 @@
 layout: post
 title: 지킬(Jekyll) 블로그 카테고리(category) 만들기
 comments: true
-categories : [Development Environment/Github Blog]
+categories : [Lecture/Introduction_to_Optimization_in_Computer_Vision]
 tags: [Github Blog]
 ---
 
