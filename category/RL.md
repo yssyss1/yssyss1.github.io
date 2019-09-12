@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Reinforcement Learning
+menu: Paper/RL
 permalink: '/Paper/RL'
 ---
 
