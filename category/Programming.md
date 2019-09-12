@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Programming
-category: Programming
+category: Programming/Programming
 permalink: '/Programming/Programming'
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Vision
-category: Vision
+category: Paper/Vision
 permalink: '/Paper/Vision'
 ---
 
