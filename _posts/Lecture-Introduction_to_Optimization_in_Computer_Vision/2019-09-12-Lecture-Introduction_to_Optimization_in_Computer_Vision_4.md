@@ -33,8 +33,8 @@ tags: [Optimization]
 	* 하지만 다차원 Quadratic form인 경우 쉽게 판단이 불가능 - 행렬이 양수인지 음수인지 쉽사리 말하기 어려움
 	* 다차원 Qudratic form인 경우 각 차원의 미분값이 0이 되는 지점(Stationary Point)은 극소, 극대, 안장점(Saddle Point) 모두 가능함
 	* 극소, 극대, 안장점에 대한 기준을 제공해주는 것이 Positive Definite임 
-	* Positive Definite이 되는 조건 중 하나는 $$( x^TQx )$$ > 0으로 이때 극소점을 가지고 반대인 경우 Negative Definite임
-	* $$( x^TQx )$$ >= 0인 경우 positive semidefinite라고 정의하고 convex quadratic problem임
+	* Positive Definite이 되는 조건 중 하나는 $x^TQx$ > 0으로 이때 극소점을 가지고 반대인 경우 Negative Definite임
+	* $x^TQx$ >= 0인 경우 positive semidefinite라고 정의하고 convex quadratic problem임
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64767743-38176480-d583-11e9-9b13-c5594edb8d54.png" width="50%" height="50%"></center>
 
 <br><br>
