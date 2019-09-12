@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 지킬(Jekyll) 블로그 카테고리(category) 만들기 테스 
+title: Lecture 1 - Introduction to Optimization 
 comments: true
-categories : [Lecture/Introduction_to_Optimization_in_Computer_Vision]
-tags: [Github Blog]
+categories : [Sample]
+tags: [Optimization]
 ---
 
 <br><br><p>포스트 개수가 많아지다 보니 관리가 힘들어서 카테고리를 만들었다. 카테고리 만든 방법을 간단하게 정리하였다.</p><br><br>
