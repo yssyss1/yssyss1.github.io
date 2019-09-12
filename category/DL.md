@@ -1,6 +1,6 @@
 ---
 layout: category
-title: DL/DL
+title: Deep Learning
 permalink: '/DL/DL'
 ---
 

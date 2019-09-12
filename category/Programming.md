@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Programming/Programming
+title: Programming
 permalink: '/Programming/Programming'
 ---
 
