@@ -18,8 +18,8 @@ tags: [Optimization]
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64763822-c4be2480-d57b-11e9-909b-810b2672ca43.png" width="50%" height="50%"></center>
 	* Level sets: Level이 같은 x 집합 S
 	* 특정 Level에서 자르면 Curve g(t)가 만들어짐
-	* f(x, y)=c라고 하면, g(t) -> (x, y)에 대응함
-	* f(g(t)) = c를 t에 대해서 미분하면 g(t)의 tangent 벡터와 f(x, y)의 gradient는 서로 <point>직교</point>한다는 성질 유도 가능
+	* $$f(x, y)=c$$라고 하면, $$g(t)$$ -> $$(x, y)$$에 대응함
+	* $$f(g(t)) = c$$를 t에 대해서 미분하면 $$g(t)$$의 tangent 벡터와 $$f(x, y)$$의 gradient는 서로 <point>직교</point>한다는 성질 유도 가능
 
 <br><br>
 * Taylor series
