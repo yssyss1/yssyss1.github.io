@@ -34,7 +34,7 @@ tags: [Optimization]
 	* <img src="https://drive.google.com/uc?export=view&id=1pOXNPLThTl0xK71KtGCXCuYKXr9P6_rH" width="80%">
 	* 앞에서 구한 Hessian, Jacobian 행렬을 사용해서 update 수식을 만들면 다음과 같고 <point>Gauss-Newton's method</point>라고 부름. 차이점은 Hessian 행렬을 구할 때 2차 미분항을 무시한다는 것임.
 	* <img src="https://drive.google.com/uc?export=view&id=1_K-oOmedM_BtXM0ed3_vLzImx5rMwP60" width="80%">
-	* 앞에서와 같이 LM modification을 적용하면 다음과 같음.
+	* 앞에서와 같이 LM modification을 적용하면 다음과 같고 이를 LM Algorithm이라고 부름.
 	* <img src="https://drive.google.com/uc?export=view&id=1cY_RlxDxOzYn3_D2jCZUI6p0DyPUfDcD" width="80%">
 	* LM modification의 변형된 형태로 항등 행렬 $$I$$ 대신 Hessian 행렬의 diag 행렬이 들어가는데 이는 Hessian 행렬이 기울기의 기울기라는 성질을 가지므로 기울기의 기울기가 크다는 것은 기울기가 급격히 변한다는 것이고 이때 step size를 줄여서 이동하는 것이 minimum으로 수렴할 때 효율적이게 됨. $$\mu_k$$가 클 경우 Hessian 행렬과 더해지는 성분의 크기가 커지고 이 값의 역행렬이 gradient에 곱해지므로 결과적으로 급격히 변할 때는 작게 움직이고 완만히 변할 때는 크게 움직이게 됨. 따라서 $$\mu$$가 작을 경우는 기존의 Newton's method와 비슷하게 작동하지만 클 경우 steepest gradient descent의 step size와 비슷하게 작동하되, <point>adaptive</point>하게 조절되는 step size를 가진다는 차이점이 있음.
 	* 왼쪽은 기울기의 기울기가 큰 경우로 step size를 작게 움직이고 오른쪽은 기울기의 기울기가 작은 경우로 step size를 크게 움직이는 것이 효율적임.
