@@ -14,8 +14,7 @@ tags: [Optimization]
 	* 이러한 방법들은 상대적으로 minimum에 도달하기 까지 상대적으로 오래걸리고 찾아낸 minimum이 global minimum이라는 것을 보장해주지 않음
 	* Iterative하게 구하는 방식은 크게 두 가지 steps로 구성됨
 		* 비용함수가 작아지는 방향 $$d^k$$ 구하기
-		* 비용함수가 작아지는 방향으로 업데이트 하기
-			* $$x^{k+1} = x^k + {\alpha}^kd^k$$
+		* 비용함수가 작아지는 방향으로 업데이트 하기 - $$x^{k+1} = x^k + {\alpha}^kd^k$$
 	* <center><img src="https://drive.google.com/uc?export=view&id=1oZW5MI3rLpzYzSr32tXUmDna4tCK5IKi"></center>
 
 <br><br>
