@@ -32,7 +32,7 @@ tags: [Optimization]
 	* 1차원인 경우 2차 함수가 convex, concave 중 어디에 속하는지는 2차항의 계수 부호를 보면 쉽게 알 수 있음
 	* 하지만 다차원 Quadratic form인 경우 쉽게 판단이 불가능 - 행렬이 양수인지 음수인지 쉽사리 말하기 어려움
 	* 다차원 Qudratic form인 경우 각 차원의 미분값이 0이 되는 지점(Stationary Point)은 극소, 극대, 안장점(Saddle Point) 모두 가능함
-	* <point>극소, 극대, 안장점</point>에 대한 <point>기준</point>을 제공해주는 것이 <point>Positive Definite</point>임 
+	* 극소, 극대, 안장점에 대한 <point>기준</point>을 제공해주는 것이 <point>Positive Definite</point>임 
 	* Positive Definite이 되는 조건 중 하나는 $$x^TQx$$ > 0으로 이때 극소점을 가지고 반대인 경우 Negative Definite임
 	* $$x^TQx$$ >= 0인 경우 <point>positive semidefinite</point>라고 정의하고 <point>convex quadratic problem</point>임
 	* <center><img src="https://user-images.githubusercontent.com/37978259/64767743-38176480-d583-11e9-9b13-c5594edb8d54.png" width="50%" height="50%"></center>
