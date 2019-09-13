@@ -46,6 +46,7 @@ tags: [Optimization]
 	* 이전의 방향 벡터($$d^{(k)}$$)와 Q_conjugated된 방향을 구할 때 밑바닥부터 구하는 방식이 아니라 이전의 방향 벡터와 접하는 지점($$x^{(k+1)}$$)에서 gradient를 구한 뒤에 gradient와 이전의 방향 벡터의 선형 결합을 위한 변수 $$\beta_k$$를 구해서 이전의 방향 벡터와 Q_conjugated된 새로운 방향 벡터($$d^{(k+1)}$$)를 구하게 됨
 	* 대부분의 목적 함수는 quadratic form이 아니므로 <point>taylor 2차 근사</point>를 통해서 Q 행렬을 구하게 됨
 	* <center><img src="https://drive.google.com/uc?export=view&id=1IA5d1bgYopWnWTm_zCPzWg7x_rd5eMhd" width="40%"></center>
+	* Conjugated gradient method(빨간색)이 steepest gradient method(초록색)보다 효율적으로 minimum에 도달하는 것을 볼 수 있음
 
 
 <br><br>
