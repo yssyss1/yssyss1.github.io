@@ -10,7 +10,7 @@ tags: [Optimization]
 * Newton's method
 	* 주어진 점에서 Taylor 2차 근사를 통해 2차 함수를 만들어내면 해당 함수에서 minimum 또는 maxmimum은 analytical하게 구할 수 있음
 	* 지그재그로 움직이는 steepest gradient descent와 달리 주어진 점에서는 가장 최저점으로 <point>jump</point>하다보니 수렴 속도가 빨라짐
-	* <img src="https://drive.google.com/uc?export=view&id=1yqbP2IvD53VLrYcLFPAJsNkIBAmx3Yc3" width="40%">
+	* <img src="https://drive.google.com/uc?export=view&id=1yqbP2IvD53VLrYcLFPAJsNkIBAmx3Yc3" width="70%">
 	* 근사시킨 2차 함수에서 미분이 0이 되는 지점을 기준으로 다음과 같이 update함
 	* <img src="https://drive.google.com/uc?export=view&id=1GhuhaN5lgP_lG_sq2S3OGciGo5Ec0LVb" width="30%">
 	* Steepest gradient descent와 달리 step size가 없고 quadratic form의 2차 항에 대한 행렬 $$H$$의 역행렬이 step size 부분에 들어가 있음. 행렬 $$H$$를 <point>Hessian 행렬</point>이라고 함.
@@ -29,7 +29,7 @@ tags: [Optimization]
 	* 다음과 같은 형태의 목적함수에는 Gauss-Newton's method를 적용할 수 있음
 	* <img src="https://drive.google.com/uc?export=view&id=1XxEgIMIPb35zZCaNpXXpnGe4gwgNnB8Y" width="80%">
 	* 목적 함수의 gradient는 다음과 같이 <point>Jacobian 행렬</point>을 사용해 표현 가능함
-	* <img src="https://drive.google.com/uc?export=view&id=1rMCY5oGOG_aP7nfuK389frijBIVZV8zD" width="60%">
+	* <img src="https://drive.google.com/uc?export=view&id=1rMCY5oGOG_aP7nfuK389frijBIVZV8zD" width="30%">
 	* Hessian 행렬을 Jacobian 행렬을 사용해 표현하면 다음과 같음. 2차 미분항은 상대적으로 작은 값이므로 <point>무시</point>함. 이 부분에서 기존의 Newton's method와 차이가 나게 됨
 	* <img src="https://drive.google.com/uc?export=view&id=1pOXNPLThTl0xK71KtGCXCuYKXr9P6_rH" width="80%">
 	* 앞에서 구한 Hessian, Jacobian 행렬을 사용해서 update 수식을 만들면 다음과 같고 <point>Gauss-Newton's method</point>라고 부름. 차이점은 Hessian 행렬을 구할 때 2차 미분항을 무시한다는 것임.
