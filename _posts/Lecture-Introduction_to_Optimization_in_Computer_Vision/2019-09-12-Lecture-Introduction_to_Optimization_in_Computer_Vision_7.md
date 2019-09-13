@@ -9,7 +9,7 @@ tags: [Optimization]
 <br><br>
 * Constrained Optimization
 	* Feasible set이 일반 실수 공간이 아니라 다음과 같이 특정 제한 조건을 만족해야하는 경우
-	* <img src="https://drive.google.com/uc?export=view&id=1iBu5KNzj_Z8kA8eAmoKumrQCZrmpqU0u" width="80%">
+	* <img src="https://drive.google.com/uc?export=view&id=1iBu5KNzj_Z8kA8eAmoKumrQCZrmpqU0u" width="60%">
 	* 목적함수, 제약조건 모두 linear인 경우 Linear 문제이고 둘 중 하나라도 linear가 아닌 경우 <point>Nonlinear</point> 문제임
 	* 이 강좌에서는 Nonlinear 경우에 집중함
 
