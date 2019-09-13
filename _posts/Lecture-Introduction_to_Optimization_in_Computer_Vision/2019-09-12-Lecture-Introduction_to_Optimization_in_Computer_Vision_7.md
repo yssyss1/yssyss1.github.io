@@ -36,6 +36,7 @@ tags: [Optimization]
 	* 제약 조건 $$h(x)=0$$의 경우 수학적으로 $$-h(x)=0$$과 동일함. 따라서 안쪽으로 향하는 gradient도 고려가 됨. $$x^2+y^2=k$$는 원점을 기준으로 방사형으로 커지는 그릇을 형태이므로 gradient가 밖을 향하게 됨. $$x^2+y^2=k$$ 양변에 (-)를 곱해주면 그릇을 뒤집게 되므로 gradient가 안을 향하게 됨. 여기선 k가 상수가 되므로 둘 중 하나로 고정할 수 없게 됨. 따라서 gradient가 양방향이 됨.
 	* <img src="https://drive.google.com/uc?export=view&id=1JOL9grtwL6_ZGAvS_IJd0wOK_xNPL4_d" width="80%">
 	* 따라서 첫 번째 조건의 기하학적 의미는 다음과 같이 gradient가 <point>parallel</point>한 지점에서 local optimum이 존재한다는 것임
+	* <img src="https://drive.google.com/uc?export=view&id=1ewoH3xw-CxPTyCRPa9S_sKpvnFIzlGAR" width="60%">
 	* 극소점을 찾기 위해 Lagrangian의 Hessian 행렬이 positive semidefinite인지 찾으면 됨
 	* <img src="https://drive.google.com/uc?export=view&id=1eDXePaceAl_kudTiI9UZrYupen3LBXUE" width="50%">
 
