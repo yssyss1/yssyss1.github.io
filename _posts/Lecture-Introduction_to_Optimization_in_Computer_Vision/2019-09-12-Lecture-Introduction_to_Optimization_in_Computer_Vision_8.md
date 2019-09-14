@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WEEK 3 - Nonlinear programming - inequality constraints (1)
+title: WEEK 3 - Nonlinear programming - inequality constraints
 comments: true
 categories : [Lecture/Introduction_to_Optimization_in_Computer_Vision]
 tags: [Optimization]
